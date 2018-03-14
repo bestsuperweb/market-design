@@ -148,8 +148,9 @@ table.gallery td{
 	cursor: pointer;
 }
 table.gallery td div{
-	position: relative;
-    top: calc(50% - 55px);
+	position: absolute;
+    bottom: 0;
+    width: 100%;
     padding: 20px;
     background: linear-gradient(-180deg, transparent, rgba(0,0,0,.5), rgba(0,0,0,.8));
 }
@@ -248,5 +249,14 @@ nav.mobile-nav li>a{
 
 	.mobile-gallery img{
 		margin: 10px 0;
+	}
+
+	.mobile-gallery h1{
+		font-family: Dancing Script;
+		position: relative;
+	    margin-top: -85px;
+	    color: #fff;
+	    padding: 30px 0 10px 10px;
+	    background: linear-gradient(-180deg, transparent, rgba(0,0,0,.5), rgba(0,0,0,.8));
 	}
 }
