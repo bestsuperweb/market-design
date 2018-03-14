@@ -1,10 +1,10 @@
 $(document).ready(function(){
 
 	AOS.init({
-	  offset: 300,
+	  offset: 500,
       duration: 500,
       easing: 'ease-in-out-cubic',
-      delay: 100,
+      delay: 200,
 	});
 
 	$('table.gallery td[rowspan="3"]').height($('td').width()*0.75);
