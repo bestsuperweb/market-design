@@ -24,7 +24,7 @@
 </head>
 <body>
 	<!--.preloader-->
-	<div id="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
+	<div id="preloader"> <i class="fa fa-spinner fa-spin"></i></div>
 	<!--/.preloader-->
 
 	<nav class="navbar navbar-fixed-top navbar-transparent text-uppercase hidden-xs hidden-sm" data-aos="slide-down">

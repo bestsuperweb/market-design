@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 	var preloader = $('#preloader');
 	$(window).on('load', function(){
-		preloader.delay(2000).remove();
+		preloader.delay(2000).fadeOut(500).remove();
 	});
 
 	$('table.gallery td[rowspan="3"]').height($('td').width()*0.75);
