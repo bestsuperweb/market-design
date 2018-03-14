@@ -7,6 +7,11 @@ $(document).ready(function(){
       delay: 200,
 	});
 
+	var preloader = $('#preloader');
+	$(window).on('load', function(){
+		preloader.delay(2000).remove();
+	});
+
 	$('table.gallery td[rowspan="3"]').height($('td').width()*0.75);
 	$('table.gallery td[rowspan="6"]').height($('td').width()*1.5);
 	$('table.gallery td[rowspan="2"]').height($('td').width()*0.5);
