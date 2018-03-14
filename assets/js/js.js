@@ -1,4 +1,4 @@
-$(document).ready(function
+$(document).ready(function(){
 
 	var preloader = $('#preloader');
 	$(window).on('load', function(){
