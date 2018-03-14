@@ -623,18 +623,18 @@
 			<h1 class="text-center text-uppercase">Partners</h1>
 			<hr>
 			<br><br>
-			<div class="row" data-aos="slide-fade-up">
-				<div class="col-xs-6 col-xs-offset-3 hidden-lg hidden-md hidden-sm">
+			<div class="row">
+				<div class="col-xs-6 col-xs-offset-3 hidden-lg hidden-md hidden-sm"  data-aos="slide-right" >
 					<img src="assets/img/amazon.png" class="img-responsive">
 					<hr>
-					<img src="assets/img/google.png" class="img-responsive">
+					<img src="assets/img/google.png" class="img-responsive"  data-aos="slide-left" >
 				</div>
 				<div class="col-sm-4 col-sm-offset-1 hidden-xs">
-					<img src="assets/img/amazon.png" class="img-responsive pull-right">
+					<img src="assets/img/amazon.png" class="img-responsive pull-right"  data-aos="slide-right" >
 				</div>
 				<div class="col-sm-2 hidden-xs"></div>
 				<div class="col-sm-4 hidden-xs">
-					<img src="assets/img/google.png" class="img-responsive">
+					<img src="assets/img/google.png" class="img-responsive" data-aos="slide-left" >
 				</div>
 			</div>
 		</div>
@@ -648,7 +648,7 @@
 			</p>
 			<br><br>
 
-			<div data-aos="slide-fade-right" >
+			<div>
 				<div class="row">
 					<div class="col-sm-6">
 						<div class="form-group">

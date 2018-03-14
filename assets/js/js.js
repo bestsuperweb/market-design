@@ -1,17 +1,10 @@
-$(document).ready(function(){
-
-	// AOS.init({
-	//   offset: 500,
- //      duration: 500,
- //      easing: 'ease-in-out-cubic',
- //      delay: 200,
-	// });
+$(document).ready(function
 
 	var preloader = $('#preloader');
 	$(window).on('load', function(){
 		preloader.delay(2000).fadeOut(500).remove();
 		AOS.init({
-		  offset: 500,
+		  offset: 300,
 	      duration: 500,
 	      easing: 'ease-in-out-cubic',
 	      delay: 200,
