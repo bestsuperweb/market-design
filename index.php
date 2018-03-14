@@ -211,11 +211,17 @@
 
 			<div class="mobile-gallery hidden-lg hidden-md hidden-sm">
 				<img src="assets/img/series.png" class="img-responsive" data-aos="flip-left" >
+				<h1 class="text-uppercase">Series</h1>
 				<img src="assets/img/documentaries1.png" class="img-responsive" data-aos="flip-right" >
+				<h1 class="text-uppercase">Documentaries</h1>
 				<img src="assets/img/movies2.png" class="img-responsive" data-aos="flip-left" >
+				<h1 class="text-uppercase">Movies</h1>
 				<img src="assets/img/reality-tv1.png" class="img-responsive" data-aos="flip-right" >
+				<h1 class="text-uppercase">Reality TV</h1>
 				<img src="assets/img/kid.png" class="img-responsive" data-aos="flip-left" >
+				<h1 class="text-uppercase">Kids</h1>
 				<img src="assets/img/original2.png" class="img-responsive" data-aos="flip-right" >
+				<h1 class="text-uppercase">Fosefi Originals</h1>
 			</div>
 		</div>		
 	</section>
